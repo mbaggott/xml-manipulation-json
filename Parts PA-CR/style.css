@@ -1,0 +1,22 @@
+table, td {
+	border: 1px solid gray;
+	
+}
+
+table {
+	box-shadow: 3px 3px 1px gray;
+}
+
+td {
+	box-shadow:inset 0px 0px 0px 2px gray;
+	padding: 5px;
+}
+
+.headCell {
+	background-color: #80ff00;
+	font-weight: bold;
+}
+
+.total {
+	font-weight: bold;
+}

@@ -1,0 +1,13 @@
+<!ELEMENT authors (author+)>
+<!ELEMENT author (name,born-died,nationality,biography,artworks+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT born-died (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT biography (#PCDATA)>
+<!ELEMENT artworks (artwork+)>
+<!ATTLIST artworks form CDATA #REQUIRED>
+<!ELEMENT artwork (title,technique,location)>
+<!ATTLIST artwork date CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT technique (#PCDATA)>
+<!ELEMENT location (#PCDATA)>

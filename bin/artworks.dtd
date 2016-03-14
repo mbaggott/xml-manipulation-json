@@ -1,0 +1,9 @@
+<!ELEMENT artworks (artwork+)>
+<!ELEMENT artwork (title,author,date,technique,location,form,type)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT technique (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT form (#PCDATA)>
+<!ELEMENT type (#PCDATA)>

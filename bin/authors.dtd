@@ -1,0 +1,6 @@
+<!ELEMENT authors (author+)>
+<!ELEMENT author (name,born-died,nationality,biography)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT born-died (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT biography (#PCDATA)>
